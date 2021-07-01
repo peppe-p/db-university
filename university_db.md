@@ -2,15 +2,9 @@
 # #################################
 
 # DIPARTIMENTI
-## Dipartimento Economia
-**id**              BIGINT          NOTNULL     AUTO_INCREMENT  UNIQUE
+**id**              BIGINT          NOTNULL     AUTO_INCREMENT  UNIQU
+**dep_name**        VARCHAR(50)     NOTNULL     UNIQUE
 **cours_id**        SMALLINT        NOTNULL     UNIQUE
-
-## Dipartimento Arte
-**id**              BIGINT          NOTNULL     AUTO_INCREMENT  UNIQUE
-**cours_id**        SMALLINT        NOTNULL     UNIQUE
-
-
 
 # CORSI
 **id**              BIGINT          NOTNULL     AUTO_INCREMENT  UNIQUE
