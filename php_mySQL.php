@@ -13,3 +13,8 @@ if ($request && $request->connect_error) {
 } else {
     echo "Richiesta avvenuta con successo!";
 }
+
+// Creazione query (ricerca e selezione dentro la tabella departments)
+$sql = "SELECT * FROM departments";
+$result = $request->query($sql);
+var_dump($result);
